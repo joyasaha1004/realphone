@@ -1,0 +1,270 @@
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(229, 238, 241);
+   
+}
+#NavId ul li {
+    font-weight: 600;
+    font-size: 15px;}
+#NavId ul{
+    margin-left: 450px;
+}
+.pic1 img{
+  height: 640px;
+ 
+}
+.pic3 img{
+    width: 700px;
+    height:640px;
+}
+.pic2 img{
+    width: 700px;
+    height: 640px;
+}
+#about{
+    margin-top: 70px;
+}
+.about-img img{
+    margin-top: 30px;
+    height: 300px;
+}
+.carousel-caption{
+    width: 450px;
+    font-size: 15px;
+    margin:180px auto;
+}
+.carousel-caption button{
+    cursor: pointer;
+}
+.carousel-inner::before{
+    content: '';
+    background: rgba(0, 0,0, 0.3);
+    z-index:1 ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+#services{
+    margin-top: 120px;
+}
+.section-text{
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    margin-top: -15px;
+   
+}
+.project-heading{
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+.list{
+    margin-top: 30px;
+    text-align: center;
+}
+.list img{
+    width: 100px;
+    height: 80px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.list button{
+    margin-left: 0px;
+}
+.project-list .card{
+    border: none;
+    width:280px;
+    height: 650px;
+    display: flex;
+    text-align: center;
+}
+.project-list .card{
+    
+    margin-top: 10px;
+   
+    box-shadow: 10px 20px 30px rgba(167, 167, 167,0.3), -10px -20px 30px rgba(167, 167, 167, 0.3) ;
+}
+.project-list .card img{
+    margin-top: 10px;
+}
+.build1{
+    margin-left: 50px;
+}
+.project-list .build2 img{
+  
+    height: 385px;
+ 
+}
+.project-list .build2{
+    margin-left:50px;
+}
+.project-list .build3{
+    position: relative;
+    right: -50px;
+}
+.project-list .build3 img{
+    height: 385px;
+}
+.project-heading{
+    text-align: center;
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.team-heading{
+    text-align: center;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 330px;
+    margin-bottom: 100px;
+}
+.team-list{
+    background-color: white;
+    text-align: center;
+    width: 220px;
+    height: 360px;
+    margin-right: 2px;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(167, 167, 167,0.4), -5px -20px 15px rgba(167, 167, 167, 0.2) ;
+}
+.team-list img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.team-list h3{
+    margin-top: 5px;
+    font-size: 23px;
+}
+.row input{
+    width: 850px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    border:0.1px solid rgba(167, 167, 167,0.4);
+   
+}
+.row textarea{
+    width: 850px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    margin-bottom: 20px;
+    border:1px solid rgba(167, 167, 167,0.4);
+    
+}
+.contact button{
+    width: 850px;
+    position: relative;
+    left: 80px;
+    font-weight: 600;
+}
+.footer-side{
+    background-color: rgba(36, 35, 35, 0.863);
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+.footer-side p{
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+}
+@media all and (max-width:500px){
+    .navbar{
+        position: fixed;
+    }
+    .navbar-brand span{
+        font-size: 18px;
+    }
+    .navbar-toggler-icon{
+        position: relative;
+        left: 0px;
+    }
+    #NavId ul {
+        margin-left: 11px;
+    }
+    #NavId ul li {
+        font-size: 13px;
+    }
+    .pic1 img{
+        height: 556px;
+        width: 880px;
+    }
+    .pic2 img{
+        height: 556px;
+    }
+    .pic3 img{
+        width: 736px;
+        height:556px;
+    }
+    .carousel-caption{
+        width: 376px;
+        font-size: 14px;
+        margin: 147px auto;
+    }
+    .carousel-caption button{
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .about-img img{
+        height: 193px;
+    }
+    .about-text{
+        margin-top: 15px;
+    }
+    .project-heading{
+        margin-left: 51px;
+    }
+    .team-heading{
+        margin-left: 83px;
+    }
+    .team-list{
+        margin-bottom: 15px;
+    }
+    .row input{
+        width: 456px;
+        position: relative;
+        left: 26px;
+    }
+    .row textarea{
+        width: 460px;
+        left: 24px;
+        position: relative;
+    }
+    .contact button{
+        width: 460px;
+        left: 36px;
+        position: relative;
+    }
+    .footer-side{
+        margin-top: 166px;
+        font-size: 12px;
+    }
+    /* #NavId ul{
+        margin-left: 8px;
+    }
+    .carousel-caption{
+        width: 363px;
+        margin: 246px auto;
+    }
+    .pic1 img{
+        height: 767px;
+    }
+    .pic2 img{
+     height: 767px;
+    }
+.pic3 img{
+height: 767px;
+} */
+}
